@@ -12,7 +12,8 @@ log = "0.4"
 wgpu = "0.14"
 pollster = "0.2"
 bytemuck = { version = "1.4", features = [ "derive" ] }
+image = { version = "0.24", features = ["png", "jpeg"] }
+anyhow = "1.0"
+cgmath = "0.18"
 
-[dependencies.image]
-version = "0.24"
-features = ["png", "jpeg"]
+ikecs = { version = "0.1", path = "./ikecs" }

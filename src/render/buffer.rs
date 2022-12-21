@@ -5,6 +5,7 @@ pub struct Vertex {
     tex_coords: [f32; 2],
 }
 
+#[rustfmt::skip]
 pub const VERTICES: &[Vertex] = &[
     Vertex { position: [-0.0868241, 0.49240386, 0.0], tex_coords: [0.4131759, 0.00759614], }, // A
     Vertex { position: [-0.49513406, 0.06958647, 0.0], tex_coords: [0.0048659444, 0.43041354], }, // B
